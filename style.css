@@ -1,0 +1,131 @@
+/* Fondo general */
+body {
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    margin: 0; /* Quita márgenes blancos */
+    padding: 0;
+    background-color: #151a2b; /*  */
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Encabezado */
+header {
+    background-color: #212842; /* Azul más claro */
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ded5b8; /* EL TITULO (ROMINE RIOS)  */
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section h2 {
+    color: #ded5b8; /* Crema  */
+    border-bottom: 2px solid #c7bd9b;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+
+section h3 {
+    color: #ded5b8; /* CREMA */
+    border-bottom: 2px solid #c7bd9b;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-left: 40px; /* Mueve el subtítulo hacia la derecha */
+
+}
+section 
+
+/* Pie de página */
+footer {
+    background-color: #212842;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+section {
+    background-color: #192038; /* azul más claro */
+    border-radius: 10px; /* esquinas redondeadas */
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5); /* sombra alrededor */
+    margin-left: 80px;
+}
+
+section, footer {
+    transition: transform 0.3s ease; /* animación suave */
+}
+
+section:hover, footer:hover {
+    transform: translateY(-5px); /* se mueve un poquito hacia arriba */
+}
+
+
+
+footer {
+    background-color: #192038;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
+
+
+.correo {
+    color: #e3ddc8; /* CREMA */
+    font-weight: bold; /* Negrita */
+}
+
+.correo:hover {
+    color: #4d6feb; /* CREMA OSCURITO*/
+}
+
+
+
+
+
+
+/*DEL CORREO DE LOS TEACHER*/
+
+ul li {
+    margin-bottom: 15px; /* espacio entre profes */
+    line-height: 1.5;    /* aire entre líneas */
+}
+
+.correo {
+    color: #e3ddc8;      /* crema */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.correo:hover {
+    color: #00aaff;      /* azul brillante al pasar el mouse */
+}
+
+
+
+
+/*LINKED*/
+
+.linkedin {
+    color: #bdb597 /* amarillo */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.linkedin:hover {
+    color: #7d775e; /* naranja más fuerte al pasar el mouse */
+}
