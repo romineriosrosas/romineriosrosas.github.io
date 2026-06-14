@@ -39,15 +39,65 @@ section {
     text-align: left;    /* contenido alineado a la izquierda */
 }
 
-/* Subtítulos sin línea divisoria */
-section h2, section h3 {
-    text-align: center;  /* subtítulos centrados */
-    color: #ffffff; /* Blanco más evidente */
+/* Subtítulos h2 */
+section h2 {
+    text-align: center;  /* centrados */
+    color: #ffffff;      /* blanco evidente */
     font-weight: bold;
     text-shadow: 0 0 6px rgba(255,255,255,0.2);
+    border-bottom: 2px solid #b0b0b0; /* rayita debajo */
     padding-bottom: 8px;
     margin-bottom: 15px;
 }
+
+/* Subtítulos h3 */
+section h3 {
+    text-align: left;    /* alineados a la izquierda */
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0 0 4px rgba(255,255,255,0.2);
+    border-bottom: 1px solid #b0b0b0; /* rayita más fina */
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+}
+
+/* Cuadro de menú inicial */
+.menu-inicio {
+    background-color: #2E332B; /* verde oscuro elegante */
+    width: 100%;              /* ocupa todo el ancho */
+    padding: 20px 0;
+    margin: 0 auto 30px auto; /* espacio debajo */
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+}
+
+.menu-inicio nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-inicio nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu-inicio nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 25px;
+    background-color: #3E453A; /* verde más claro */
+    transition: 0.3s;
+}
+
+.menu-inicio nav ul li a:hover {
+    background-color: #00ff99; /* verde brillante */
+    color: #2E332B;
+    box-shadow: 0 0 12px #00ff99;
+}
+
 
 /* Sección de Habilidades */
 section.habilidades {
