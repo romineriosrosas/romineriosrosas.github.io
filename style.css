@@ -5,48 +5,47 @@ body {
     padding: 0;
     background-color: #3E453A; /* Verde oscuro */
     color: #c4c4c4; /* Blanco plomizo */
+    text-align: center; /* Centra todo el texto */
 }
-
-.sobre-mi h2 {
-    color: #b0b0b0; /* blanco más oscuro */
-    font-size: 2em;
-    margin-bottom: 15px;
-    text-shadow: 0 0 8px rgba(255,255,255,0.2);
-}
-
-.sobre-mi p {
-    line-height: 1.6;
-    font-size: 1.1em;
-}
-
 
 /* Encabezado */
 header {
-    background-color: #3E453A; /* Verde más claro */
+    background-color: #3E453A; /* Verde oscuro */
     text-align: center;
     padding: 40px 20px;
 }
 
 header h1 {
     font-size: 2.5em;
-    color: #c4c4c4; /* Blanco plomizo */
+    color: #ffffff; /* Blanco más evidente */
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(255,255,255,0.3);
+}
+
+header p {
+    font-size: 1.2em;
+    color: #c4c4c4;
 }
 
 /* Secciones */
 section {
     background-color: #5C6958; /* Verde más claro */
     border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
-    color: #c4c4c4; /* Texto plomizo */
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
     transition: transform 0.3s ease;
 }
 
+/* Subtítulos con línea divisoria */
 section h2, section h3 {
-    color: #c4c4c4; /* Blanco plomizo */
-    border-bottom: 2px solid #b0b0b0; /* Blanco más oscuro */
-    padding-bottom: 5px;
+    color: #ffffff; /* Blanco más evidente */
+    font-weight: bold;
+    text-shadow: 0 0 6px rgba(255,255,255,0.2);
+    border-bottom: 2px solid #b0b0b0; /* Línea divisoria */
+    padding-bottom: 8px;
+    margin-bottom: 15px;
 }
 
 /* Animación al pasar el mouse */
@@ -54,16 +53,36 @@ section:hover {
     transform: translateY(-5px);
 }
 
+/* Listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-weight: bold; /* Negrita para destacar */
+    color: #ffffff; /* Blanco más evidente */
+}
+
+/* Texto dentro de listas (subdetalles) */
+ul li p {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #b0b0b0; /* Blanco más oscuro */
+    margin: 5px 0;
+}
+
 /* Pie de página */
 footer {
-    background-color: #3E453A; /* Verde oscuro */
+    background-color: #2E332B;
     border-radius: 10px;
     padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
+    margin: 30px auto;
+    max-width: 900px;
     text-align: center;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
-    color: #c4c4c4; /* Blanco plomizo */
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+    color: #c4c4c4;
     transition: transform 0.3s ease;
 }
 
@@ -71,40 +90,13 @@ footer:hover {
     transform: translateY(-5px);
 }
 
-/* Correo */
-.correo {
-    color: #c4c4c4; /* Blanco plomizo */
+/* Links */
+a {
+    color: #c4c4c4;
     font-weight: bold;
     text-decoration: none;
+    transition: 0.3s;
 }
-.correo:hover {
-    color: #b0b0b0; /* Blanco más oscuro */
+a:hover {
+    color: #00ff99; /* Verde brillante al pasar el mouse */
 }
-
-/* LinkedIn */
-.linkedin {
-    color: #c4c4c4; /* Blanco plomizo */
-    font-weight: bold;
-    text-decoration: none;
-}
-.linkedin:hover {
-    color: #b0b0b0; /* Blanco más oscuro */
-}
-
-/* Lista de profesores */
-ul li {
-    margin-bottom: 15px;
-    line-height: 1.5;
-}
-
-.sobre-mi {
-    background-color: #5C6958; /* verde más claro */
-    color: #c4c4c4; /* blanco plomizo */
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-    margin: 30px auto;
-    max-width: 800px;
-    text-align: center;
-}
-
