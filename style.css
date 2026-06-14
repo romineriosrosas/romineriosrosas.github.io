@@ -39,7 +39,7 @@ section {
     text-align: left;
 }
 
-/* Subtítulos h2 */
+/* Subtítulos generales */
 section h2 {
     text-align: center;
     color: #ffffff;
@@ -50,7 +50,6 @@ section h2 {
     margin-bottom: 15px;
 }
 
-/* Subtítulos h3 */
 section h3 {
     text-align: left;
     color: #ffffff;
@@ -95,7 +94,7 @@ section h3 {
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
-    padding: 12px 20px;
+    padding: 10px 18px;
     border-radius: 25px;
     background-color: #3E453A;
     transition: 0.3s;
@@ -126,39 +125,6 @@ section.habilidades h2 {
     text-shadow: 0 0 10px rgba(255,255,255,0.4);
     padding-bottom: 10px;
     margin-bottom: 25px;
-}
-
-/* Subtítulos dentro de la lista (habilidades principales) */
-section.habilidades ul > li {
-    margin: 25px 0;
-    font-size: 1.3em;
-    font-weight: bold;
-    color: #ffffff;
-    text-shadow: 0 0 8px rgba(255,255,255,0.4);
-    padding-bottom: 8px;
-}
-
-/* Texto descriptivo debajo de cada subtítulo */
-section.habilidades ul > li > p {
-    font-size: 1em;
-    font-weight: normal;
-    color: #c4c4c4;
-    margin-top: 8px;
-    margin-left: 25px;
-}
-
-section.habilidades ul li ul li {
-    font-size: 0.95em;
-    font-weight: normal;
-    color: #d4d4d4;
-    margin: 6px 0;
-    text-align: left;
-    padding-left: 20px;
-}
-
-/* Animación al pasar el mouse */
-section:hover {
-    transform: translateY(-5px);
 }
 
 /* Listas generales */
