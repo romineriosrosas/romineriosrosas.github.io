@@ -90,17 +90,10 @@ section.habilidades ul > li > p {
     margin-left: 25px; /* corrido a la izquierda */
 }
 
-/* Listas internas (autores, recomendaciones, etc.) */
-section.habilidades ul li ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 10px;
-}
-
 section.habilidades ul li ul li {
     font-size: 0.95em; /* más pequeño que el subtítulo */
     font-weight: normal; /* sin negrita */
-    color: #b0b0b0; /* gris más oscuro */
+    color: #d4d4d4; /* gris más oscuro */
     margin: 6px 0;
     text-align: left; /* alineados a la izquierda */
     padding-left: 20px;
@@ -127,7 +120,7 @@ ul li {
 ul li p {
     font-size: 0.9em;
     font-weight: normal;
-    color: #b0b0b0;
+    color: #d4d4d4;
     margin: 5px 0;
 }
 
