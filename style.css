@@ -1,146 +1,98 @@
 /* Fondo general */
 body {
-    font-family: Arial, sans-serif; /* Tipo de letra */
-    margin: 0; /* Quita márgenes blancos */
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
-    background-color: #3E453A; /*VERDE MILITAR  */
-    color: #c4c4c4; /* Texto blanco */
+    background-color: #3E453A; /* Verde oscuro */
+    color: #c4c4c4; /* Blanco plomizo */
 }
 
-
+/* Tarjetas */
 .card {
-  background: #fff;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: transform 0.3s;
+    background: #5C6958; /* Verde más claro */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+    color: #c4c4c4; /* Texto plomizo */
 }
 .card:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
-
-
-
 
 /* Encabezado */
 header {
-    background-color: #5C6958; /* VERDE más claro */
+    background-color: #5C6958; /* Verde más claro */
     text-align: center;
     padding: 40px 20px;
 }
 
 header h1 {
     font-size: 2.5em;
-    color: #c4c4c4; /* EL TITULO (ROMINE RIOS)  */
+    color: #c4c4c4; /* Blanco plomizo */
 }
 
 /* Secciones */
 section {
+    background-color: #5C6958; /* Verde más claro */
+    border-radius: 10px;
     padding: 20px;
-    max-width: 800px;
-    margin: auto;
+    margin: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    color: #c4c4c4; /* Texto plomizo */
+    transition: transform 0.3s ease;
 }
 
-section h2 {
-    color: #c4c4c4; /* Crema  */
-    border-bottom: 2px solid #b0b0b0;
+section h2, section h3 {
+    color: #c4c4c4; /* Blanco plomizo */
+    border-bottom: 2px solid #b0b0b0; /* Blanco más oscuro */
     padding-bottom: 5px;
-    margin-left: 10px;
 }
 
-section h3 {
-    color: #c4c4c4; /* CREMA */
-    border-bottom: 2px solid #b0b0b0;
-    text-align: center;
-    padding-bottom: 5px;
-    margin-left: 40px; /* Mueve el subtítulo hacia la derecha */
-
+/* Animación al pasar el mouse */
+section:hover {
+    transform: translateY(-5px);
 }
-section 
 
 /* Pie de página */
 footer {
-    background-color: #3E453A;
-    text-align: center;
-    padding: 20px;
-    margin-top: 30px;
-}
-
-
-
-
-section {
-    background-color: #5C6958; /* verde más claro */
-    border-radius: 10px; /* esquinas redondeadas */
-    padding: 20px;
-    margin: 20px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.5); /* sombra alrededor */
-    margin-left: 80px;
-}
-
-section, footer {
-    transition: transform 0.3s ease; /* animación suave */
-}
-
-section:hover, footer:hover {
-    transform: translateY(-5px); /* se mueve un poquito hacia arriba */
-}
-
-
-
-footer {
-    background-color: #2E332B;
+    background-color: #3E453A; /* Verde oscuro */
     border-radius: 10px;
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    color: #c4c4c4; /* Blanco plomizo */
+    transition: transform 0.3s ease;
 }
 
+footer:hover {
+    transform: translateY(-5px);
+}
 
+/* Correo */
 .correo {
-    color: #c4c4c4; /* CREMA */
-    font-weight: bold; /* Negrita */
-}
-
-.correo:hover {
-    color: #848583; /* blaquito OSCURITO*/
-}
-
-
-
-
-
-
-/*DEL CORREO DE LOS TEACHER*/
-
-ul li {
-    margin-bottom: 15px; /* espacio entre profes */
-    line-height: 1.5;    /* aire entre líneas */
-}
-
-.correo {
-    color: #e3ddc8;      /* crema */
+    color: #c4c4c4; /* Blanco plomizo */
     font-weight: bold;
     text-decoration: none;
 }
-
 .correo:hover {
-    color: #00aaff;      /*  brillante al pasar el mouse */
+    color: #b0b0b0; /* Blanco más oscuro */
 }
 
-
-
-
-/*LINKED*/
-
+/* LinkedIn */
 .linkedin {
-    color: #bdb597 /* amarillo */
+    color: #c4c4c4; /* Blanco plomizo */
     font-weight: bold;
     text-decoration: none;
 }
-
 .linkedin:hover {
-    color: #7d775e; /* naranja más fuerte al pasar el mouse */
+    color: #b0b0b0; /* Blanco más oscuro */
+}
+
+/* Lista de profesores */
+ul li {
+    margin-bottom: 15px;
+    line-height: 1.5;
 }
