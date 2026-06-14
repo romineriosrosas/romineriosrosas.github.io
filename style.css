@@ -5,19 +5,19 @@ body {
     padding: 0;
     background-color: #3E453A; /* Verde oscuro */
     color: #c4c4c4; /* Blanco plomizo */
-    text-align: center; /* Centra solo el marco general */
+    text-align: center;
 }
 
 /* Encabezado */
 header {
-    background-color: #3E453A; /* Verde oscuro */
+    background-color: #3E453A;
     text-align: center;
     padding: 40px 20px;
 }
 
 header h1 {
     font-size: 2.5em;
-    color: #ffffff; /* Blanco más evidente */
+    color: #ffffff;
     font-weight: bold;
     text-shadow: 0 0 8px rgba(255,255,255,0.3);
 }
@@ -29,51 +29,61 @@ header p {
 
 /* Secciones (cuadro centrado, contenido a la izquierda) */
 section {
-    background-color: #5C6958; /* Verde más claro */
+    background-color: #5C6958;
     border-radius: 10px;
     padding: 25px;
-    margin: 30px auto;   /* centra el cuadro */
+    margin: 30px auto;
     max-width: 900px;
     box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
     transition: transform 0.3s ease;
-    text-align: left;    /* contenido alineado a la izquierda */
+    text-align: left;
 }
 
 /* Subtítulos h2 */
 section h2 {
-    text-align: center;  /* centrados */
-    color: #ffffff;      /* blanco evidente */
+    text-align: center;
+    color: #ffffff;
     font-weight: bold;
     text-shadow: 0 0 6px rgba(255,255,255,0.2);
-    border-bottom: 2px solid #b0b0b0; /* rayita debajo */
+    border-bottom: 2px solid #b0b0b0;
     padding-bottom: 8px;
     margin-bottom: 15px;
 }
 
 /* Subtítulos h3 */
 section h3 {
-    text-align: left;    /* alineados a la izquierda */
+    text-align: left;
     color: #ffffff;
     font-weight: bold;
     text-shadow: 0 0 4px rgba(255,255,255,0.2);
-    border-bottom: 1px solid #b0b0b0; /* rayita más fina */
+    border-bottom: 1px solid #b0b0b0;
     padding-bottom: 6px;
     margin-bottom: 12px;
 }
 
+/* Quitar línea en ¿Quién soy? */
 .no-linea {
-    border-bottom: none !important; /* sin rayita */
+    border-bottom: none !important;
 }
 
-
+/* Menú de inicio (rectángulo largo con grid) */
+.menu-inicio {
+    background-color: #2E332B;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 auto 30px auto;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+}
 
 .menu-inicio nav ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
-    gap: 15px; /* espacio entre botones */
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 15px;
     list-style: none;
     margin: 0;
     padding: 0;
+    max-width: 900px;
+    margin: auto;
 }
 
 .menu-inicio nav ul li {
@@ -97,7 +107,6 @@ section h3 {
     box-shadow: 0 0 12px #00ff99;
 }
 
-
 /* Sección de Habilidades */
 section.habilidades {
     background-color: #5C6958;
@@ -105,13 +114,12 @@ section.habilidades {
     padding: 30px;
     margin: 40px auto;
     max-width: 900px;
-    text-align: left; /* contenido corrido a la izquierda */
+    text-align: left;
     box-shadow: 0 4px 15px rgba(0,0,0,0.6);
 }
 
-/* Título principal de Habilidades */
 section.habilidades h2 {
-    text-align: center; /* título centrado */
+    text-align: center;
     font-size: 2.5em;
     color: #ffffff;
     font-weight: bold;
@@ -126,7 +134,7 @@ section.habilidades ul > li {
     font-size: 1.3em;
     font-weight: bold;
     color: #ffffff;
-    text-shadow: 0 0 8px rgba(255,255,255,0.4); /* más brillo */
+    text-shadow: 0 0 8px rgba(255,255,255,0.4);
     padding-bottom: 8px;
 }
 
@@ -136,15 +144,15 @@ section.habilidades ul > li > p {
     font-weight: normal;
     color: #c4c4c4;
     margin-top: 8px;
-    margin-left: 25px; /* corrido a la izquierda */
+    margin-left: 25px;
 }
 
 section.habilidades ul li ul li {
-    font-size: 0.95em; /* más pequeño que el subtítulo */
-    font-weight: normal; /* sin negrita */
-    color: #d4d4d4; /* gris más oscuro */
+    font-size: 0.95em;
+    font-weight: normal;
+    color: #d4d4d4;
     margin: 6px 0;
-    text-align: left; /* alineados a la izquierda */
+    text-align: left;
     padding-left: 20px;
 }
 
@@ -165,7 +173,7 @@ ul li {
     color: #ffffff;
 }
 
-/* Texto dentro de listas (subdetalles generales) */
+/* Texto dentro de listas */
 ul li p {
     font-size: 0.9em;
     font-weight: normal;
@@ -198,5 +206,5 @@ a {
     transition: 0.3s;
 }
 a:hover {
-    color: #00ff99; /* Verde brillante al pasar el mouse */
+    color: #00ff99;
 }
