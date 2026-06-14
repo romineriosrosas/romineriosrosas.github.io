@@ -147,13 +147,15 @@ ul li {
     line-height: 1.5;
     font-weight: bold;
     color: #ffffff;
+    font-weight: bold; 
 }
 
 /* Texto dentro de listas */
 ul li p {
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: normal;
     color: #d4d4d4;
+    font-weight: bold; 
     margin: 5px 0;
 }
 
