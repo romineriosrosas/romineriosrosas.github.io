@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-color: #3E453A; /* Verde oscuro */
     color: #c4c4c4; /* Blanco plomizo */
-    text-align: center; /* Centra todo el texto */
+    text-align: center; /* Centra solo el marco general */
 }
 
 /* Encabezado */
@@ -27,19 +27,21 @@ header p {
     color: #c4c4c4;
 }
 
-/* Secciones */
+/* Secciones (cuadro centrado, contenido a la izquierda) */
 section {
     background-color: #5C6958; /* Verde más claro */
     border-radius: 10px;
     padding: 25px;
-    margin: 30px auto;
+    margin: 30px auto;   /* centra el cuadro */
     max-width: 900px;
     box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
     transition: transform 0.3s ease;
+    text-align: left;    /* contenido alineado a la izquierda */
 }
 
 /* Subtítulos con línea divisoria */
 section h2, section h3 {
+    text-align: center;  /* subtítulos centrados */
     color: #ffffff; /* Blanco más evidente */
     font-weight: bold;
     text-shadow: 0 0 6px rgba(255,255,255,0.2);
@@ -50,22 +52,23 @@ section h2, section h3 {
 
 /* Sección de Habilidades */
 section.habilidades {
-    background-color: #5C6958; /* verde más claro */
+    background-color: #5C6958;
     border-radius: 12px;
     padding: 30px;
     margin: 40px auto;
     max-width: 900px;
-    text-align: center; /* centra todo */
+    text-align: left; /* contenido corrido a la izquierda */
     box-shadow: 0 4px 15px rgba(0,0,0,0.6);
 }
 
-/* Título principal */
+/* Título principal de Habilidades */
 section.habilidades h2 {
+    text-align: center; /* título centrado */
     font-size: 2.5em;
-    color: #ffffff; /* blanco brillante */
+    color: #ffffff;
     font-weight: bold;
     text-shadow: 0 0 10px rgba(255,255,255,0.4);
-    border-bottom: 3px solid #b0b0b0; /* línea divisoria */
+    border-bottom: 3px solid #b0b0b0;
     padding-bottom: 10px;
     margin-bottom: 25px;
 }
@@ -75,9 +78,9 @@ section.habilidades ul li {
     margin: 25px 0;
     font-size: 1.3em;
     font-weight: bold;
-    color: #ffffff; /* blanco más evidente */
+    color: #ffffff;
     text-shadow: 0 0 6px rgba(255,255,255,0.3);
-    border-bottom: 2px solid #b0b0b0; /* línea divisoria */
+    border-bottom: 2px solid #b0b0b0;
     padding-bottom: 8px;
 }
 
@@ -85,11 +88,9 @@ section.habilidades ul li {
 section.habilidades ul li p {
     font-size: 1em;
     font-weight: normal;
-    color: #c4c4c4; /* blanco plomizo */
+    color: #c4c4c4;
     margin-top: 8px;
 }
-
-
 
 /* Animación al pasar el mouse */
 section:hover {
@@ -104,15 +105,15 @@ ul {
 ul li {
     margin-bottom: 15px;
     line-height: 1.5;
-    font-weight: bold; /* Negrita para destacar */
-    color: #ffffff; /* Blanco más evidente */
+    font-weight: bold;
+    color: #ffffff;
 }
 
 /* Texto dentro de listas (subdetalles) */
 ul li p {
     font-size: 0.9em;
     font-weight: normal;
-    color: #b0b0b0; /* Blanco más oscuro */
+    color: #b0b0b0;
     margin: 5px 0;
 }
 
