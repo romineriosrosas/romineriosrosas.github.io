@@ -7,18 +7,18 @@ body {
     color: #c4c4c4; /* Blanco plomizo */
 }
 
-/* Tarjetas */
-.card {
-    background: #5C6958; /* Verde más claro */
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    transition: transform 0.3s;
-    color: #c4c4c4; /* Texto plomizo */
+.sobre-mi h2 {
+    color: #b0b0b0; /* blanco más oscuro */
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-shadow: 0 0 8px rgba(255,255,255,0.2);
 }
-.card:hover {
-    transform: scale(1.05);
+
+.sobre-mi p {
+    line-height: 1.6;
+    font-size: 1.1em;
 }
+
 
 /* Encabezado */
 header {
@@ -96,3 +96,15 @@ ul li {
     margin-bottom: 15px;
     line-height: 1.5;
 }
+
+.sobre-mi {
+    background-color: #5C6958; /* verde más claro */
+    color: #c4c4c4; /* blanco plomizo */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    margin: 30px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
