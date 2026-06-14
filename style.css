@@ -39,13 +39,12 @@ section {
     text-align: left;    /* contenido alineado a la izquierda */
 }
 
-/* Subtítulos con línea divisoria */
+/* Subtítulos sin línea divisoria */
 section h2, section h3 {
     text-align: center;  /* subtítulos centrados */
     color: #ffffff; /* Blanco más evidente */
     font-weight: bold;
     text-shadow: 0 0 6px rgba(255,255,255,0.2);
-    border-bottom: 2px solid #b0b0b0; /* Línea divisoria */
     padding-bottom: 8px;
     margin-bottom: 15px;
 }
@@ -68,7 +67,6 @@ section.habilidades h2 {
     color: #ffffff;
     font-weight: bold;
     text-shadow: 0 0 10px rgba(255,255,255,0.4);
-    border-bottom: 3px solid #b0b0b0;
     padding-bottom: 10px;
     margin-bottom: 25px;
 }
@@ -79,8 +77,7 @@ section.habilidades ul > li {
     font-size: 1.3em;
     font-weight: bold;
     color: #ffffff;
-    text-shadow: 0 0 6px rgba(255,255,255,0.3);
-    border-bottom: 2px solid #b0b0b0;
+    text-shadow: 0 0 8px rgba(255,255,255,0.4); /* más brillo */
     padding-bottom: 8px;
 }
 
@@ -90,6 +87,7 @@ section.habilidades ul > li > p {
     font-weight: normal;
     color: #c4c4c4;
     margin-top: 8px;
+    margin-left: 25px; /* corrido a la izquierda */
 }
 
 /* Listas internas (autores, recomendaciones, etc.) */
