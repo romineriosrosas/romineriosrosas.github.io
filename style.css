@@ -73,8 +73,8 @@ section.habilidades h2 {
     margin-bottom: 25px;
 }
 
-/* Subtítulos dentro de la lista */
-section.habilidades ul li {
+/* Subtítulos dentro de la lista (habilidades principales) */
+section.habilidades ul > li {
     margin: 25px 0;
     font-size: 1.3em;
     font-weight: bold;
@@ -85,11 +85,27 @@ section.habilidades ul li {
 }
 
 /* Texto descriptivo debajo de cada subtítulo */
-section.habilidades ul li p {
+section.habilidades ul > li > p {
     font-size: 1em;
     font-weight: normal;
     color: #c4c4c4;
     margin-top: 8px;
+}
+
+/* Listas internas (autores, recomendaciones, etc.) */
+section.habilidades ul li ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+section.habilidades ul li ul li {
+    font-size: 0.95em; /* más pequeño que el subtítulo */
+    font-weight: normal; /* sin negrita */
+    color: #b0b0b0; /* gris más oscuro */
+    margin: 6px 0;
+    text-align: left; /* alineados a la izquierda */
+    padding-left: 20px;
 }
 
 /* Animación al pasar el mouse */
@@ -97,7 +113,7 @@ section:hover {
     transform: translateY(-5px);
 }
 
-/* Listas */
+/* Listas generales */
 ul {
     list-style: none;
     padding: 0;
@@ -109,7 +125,7 @@ ul li {
     color: #ffffff;
 }
 
-/* Texto dentro de listas (subdetalles) */
+/* Texto dentro de listas (subdetalles generales) */
 ul li p {
     font-size: 0.9em;
     font-weight: normal;
